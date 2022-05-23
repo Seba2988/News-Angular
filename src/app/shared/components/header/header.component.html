@@ -1,0 +1,21 @@
+<div class="header">
+  <div class="header_nav">
+    <div>
+      <input
+        type="text"
+        placeholder="Enter your search"
+        #search
+        (keyup.enter)="onSearch(search)"
+      />
+      <button (click)="onSearch(search)">Search</button>
+    </div>
+    <a routerLinkActive="active-link" routerLink="/home">Home</a>
+  </div>
+  <div class="header_categories">
+    <a routerLinkActive="active-link" routerLink="/technology">Technology</a>
+    <a routerLinkActive="active-link" routerLink="/science">Science</a>
+    <a routerLinkActive="active-link" routerLink="/sports">Sports</a>
+    <a routerLinkActive="active-link" routerLink="/health">Health</a>
+    <a routerLinkActive="active-link" routerLink="/business">Business</a>
+  </div>
+</div>

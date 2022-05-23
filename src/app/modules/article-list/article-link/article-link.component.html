@@ -1,0 +1,8 @@
+<div class="container">
+  <a class="title" routerLink="/article" (click)="onLinkClick()">{{
+    article.title
+  }}</a>
+  <div class="subtitle">
+    {{ article.source.name }}, {{ article.publishedAt }}
+  </div>
+</div>
