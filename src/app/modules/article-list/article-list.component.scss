@@ -1,21 +1,4 @@
 .container {
   width: 80%;
   margin: 1rem auto;
-  .list_nav {
-    display: flex;
-    margin: 1rem auto;
-    width: fit-content;
-    gap: 20px;
-    button {
-      text-decoration: none;
-      color: black;
-      border: none;
-      background-color: transparent;
-      cursor: pointer;
-      font-size: 1rem;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
 }

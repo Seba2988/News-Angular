@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
   onSearch(search) {
     if (search.value.trim().length !== 0) {
       const route = this.router.url.slice(1);
-      if (route === 'home') {
+      if (route === 'home' || route === 'article' || route === 'search') {
         this.searchService.searchNews(1, search.value);
         this.router.navigate(['/search']);
       } else {

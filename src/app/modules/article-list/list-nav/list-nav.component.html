@@ -1,0 +1,5 @@
+<div class="list_nav">
+  <button *ngIf="page !== 1" (click)="onNavClick('prev')">Prev</button>
+  <div>Page {{ page }} of {{ totalPages }}</div>
+  <button *ngIf="page !== totalPages" (click)="onNavClick('next')">Next</button>
+</div>

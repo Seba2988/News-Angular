@@ -4,11 +4,5 @@
     [index]="i"
     [article]="article"
   ></app-article-link>
-  <div class="list_nav">
-    <button *ngIf="page !== 1" (click)="onNavClick('prev')">Prev</button>
-    <div>Page {{ page }} of {{ totalPages }}</div>
-    <button *ngIf="page !== totalPages" (click)="onNavClick('next')">
-      Next
-    </button>
-  </div>
+  <app-list-nav></app-list-nav>
 </div>

@@ -10,14 +10,10 @@ import { ArticleListComponent } from './modules/article-list/article-list.compon
 import { ArticleLinkComponent } from './modules/article-list/article-link/article-link.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './modules/home/home.component';
-import { SearchComponent } from './modules/search/search.component';
-import { SportsComponent } from './modules/sports/sports.component';
-import { TechnologyComponent } from './modules/technology/technology.component';
-import { ScienceComponent } from './modules/science/science.component';
-import { HealthComponent } from './modules/health/health.component';
-import { BusinessComponent } from './modules/business/business.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { PageNotFoundComponent } from './modules/page-not-found/page-not-found.component';
+import { CategoriesComponent } from './modules/categories/categories.component';
+import { ListNavComponent } from './modules/article-list/list-nav/list-nav.component';
 
 @NgModule({
   declarations: [
@@ -26,14 +22,10 @@ import { PageNotFoundComponent } from './modules/page-not-found/page-not-found.c
     ArticleListComponent,
     ArticleLinkComponent,
     HomeComponent,
-    SearchComponent,
-    SportsComponent,
-    TechnologyComponent,
-    ScienceComponent,
-    HealthComponent,
-    BusinessComponent,
     HeaderComponent,
     PageNotFoundComponent,
+    CategoriesComponent,
+    ListNavComponent,
   ],
   imports: [
     BrowserModule,
